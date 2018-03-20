@@ -1,0 +1,18 @@
+<!DOCTYP <!DOCTYPE html>
+<html lang="en" ng-app>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pokemon Yeah!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+  Type something: <input ng-model='myValue'>
+
+  <div>You typed: {{myValue.toLowerCase()}}</div>
+  <div ng-if='myValue'>Hey, you types some stuff</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.js" charset="utf-8"></script>
+</body>
+</html>
